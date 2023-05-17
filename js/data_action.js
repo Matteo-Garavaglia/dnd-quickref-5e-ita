@@ -53,66 +53,66 @@ data_action = [
         ]
     },
     {
-        title: "Dash",
+        title: "Scatto",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "Raddoppia la tua velocità di movimento.",
+        description: "Ottieni del movimento extra per il turno corrente.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "Raddoppia la tua velocità, dopo aver applicato i modificatori."
         ]
     },
     {
-        title: "Disengage",
+        title: "Disingaggio",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "Previeni gli attacchi di opportunità.",
+        description: "Il tuo movimento non provoca attacchi d'opportunità per il resto del turno.",
         reference: "PHB, pg. 192.",
         bullets: [
         ]
     },
     {
-        title: "Dodge",
+        title: "Schivata",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "Aumenta la difesa",
+        description: "Ti concentri completamente per schivare gli attacchi.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "Fino all'inizio del prossimo turno, ogni tiro per colpire fatto contro di te è fatto con <i>Svantaggio</i>, se puoi vedere l'attaccante. Inoltre, ogni tiro salvezza fatto con Destrezza viene effettuato con <i>Vantaggio</i>",
+            "Perdi i benefici di questa azione se sei <i>incapacitato</i> o i la tua velocità scende a 0."
         ]
     },
     {
-        title: "Escape",
+        title: "Liberati",
         icon: "manacles",
-        subtitle: "Escape a grapple",
-        description: "Escape a grapple",
+        subtitle: "Liberati da una presa",
+        description: "Cerca di liberarti da una presa.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Atletica) or Dexterity (Acrobatics) check contested by the grappler's Strength (Atletica) check.",
-            "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
+            "Per liberarti da una presa devi fare un check su Forza (Atletica) o Destrezza (Acrobazia) contestato da un check su Forza (Atletica) di chi effettua la presa.",
+            "Liberarti da altre condizioni che contengono il tuo movimento (come ad esempio delle catene) può richiedere un check su Destrezza o Forza."
         ]
     },
     {
-        title: "Help",
+        title: "Aiuta",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "Garantisce vantaggio limitato ad un alleato.",
+        description: "Garantisce vantaggio limitato ad un alleato.",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "L'obiettivo ottiene <i>vantaggio</i> sul prossimo check che fa per eseguire un'azione con il tuo aiuto.",
+            "Alternativamente, l'obiettivo ottiene vantaggio nel prossimo tiro per colpire fatto contro una creature a 5 ft da te.",
+            "Il <i> vantaggio </i> garantito in questo modo permane fino all'inizio del prossimo turno."
         ]
     },
     {
-        title: "Use Object",
+        title: "Usa Oggetto",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "Interagisci, usa abilità speciali.",
+        description: "Interagisci con un secondo oggetto o usa l'abilità speciale di un secondo oggetto.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
+            "Puoi interagire con un oggetto utilizzando un'<i>Azione Libera</i> durante il tuo turno (come sfoderare un'arma o aprire una porta). Se vuoi interagire con un secondo oggetto usa questa <i>azione</i>.",
             "When an object requires your action for its use, you also take this action."
         ]
     },
