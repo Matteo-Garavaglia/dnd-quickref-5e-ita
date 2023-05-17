@@ -16,26 +16,26 @@ data_action = [
     {
         title: "Presa",
         icon: "grab",
-        subtitle: "Attacco in mischia speciale",
+        subtitle: "Attacco speciale in mischia",
         description: "Tentativo di afferrare una creatura o portarla a terra",
         reference: "PHB, pg. 195.",
         bullets: [
             "Puoi usare un'azione di <i>Attacco</i> per eseguire un'azione speciale in mischia, la <i>Presa</i>. Se sei in grado di eseguire attacchi molteplici utilizzando l'azione di Attacco, la Presa ne rimpiazza uno di essi.",
-            "L'obiettivo di una Presa può essere al massimo più grande di una taglia, e deve essere a portata.",
+            "L'obiettivo di una Presa può essere al massimo più grande di una taglia rispetto a colui che la tenta, e deve essere a portata.",
             "Usando almeno una mano libera, cerchi di prendere l'obiettivo facendo un check su Forza (Atleticismo) contestato da un check di Forza (Atleticismo) o uno su Destrezza (Acrobazie) (il bersaglio sceglie quello da utilizzare).",
             "Se hai successo, poni il bersaglio nella condizione di preso e la sua velocità diventa 0."
         ]
     },
     {
-        title: "Shove",
+        title: "Spinta",
         icon: "hand",
-        subtitle: "Special melee attack",
-        description: "Shove a creature, either to knock it prone or push it away from you",
+        subtitle: "Attacco speciale in mischia",
+        description: "Spingi una creature, facendolo cadere a terra o allontanandolo da te.",
         reference: "PHB, pg. 195.",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
+            "Usando l'azione di <i>Attacco</i>, puoi fare un attacco speciale in mischia per spingere una creature. Se sei in grado di fare più attacchi usando una singola azione d'<i>Attacco</i>, questo attacco ne rimpiazza uno di essi.",
+            "L'obiettivo della <i>Spinta</i> può essere al massimo più grande di una taglia rispetto a colui che la tenta, e deve essere a portata.",
+            "Fai un check su Forza (AtYou make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
             "If you win the contest, you either knock the target prone or push it 5 feet away from you."
         ]
     },
