@@ -2,8 +2,8 @@ data_action = [
     {
         title: "Attacco",
         icon: "crossed-swords",
-        subtitle: "Esegui un attacco in mischia o a distanza con la tua arma.",
-        description: "Esegui un attacco in mischia o a distanza con la tua arma.",
+        subtitle: "Esegui un attacco in mischia o a distanza.",
+        description: "Esegui un attacco in mischia o a distanza.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Certe caratteristiche, come <i>Attacco Extra</i> del guerriero, permettono di eseguire più di un singolo attacco con questa azione. Ognuno di questi attacchi ha tiri separati e può colpire creature diverse. Puoi muoverti tra i vari attacchi.",
@@ -35,7 +35,7 @@ data_action = [
         bullets: [
             "Usando l'azione di <i>Attacco</i>, puoi fare un attacco speciale in mischia per spingere una creature. Se sei in grado di fare più attacchi usando una singola azione d'<i>Attacco</i>, questo attacco ne rimpiazza uno di essi.",
             "L'obiettivo della <i>Spinta</i> può essere al massimo più grande di una taglia rispetto a colui che la tenta, e deve essere a portata.",
-            "Fai un check su Forza (AtYou make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
+            "Fai un check su Forza (AtletiYou make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
             "If you win the contest, you either knock the target prone or push it 5 feet away from you."
         ]
     },
