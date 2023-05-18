@@ -113,87 +113,88 @@ data_action = [
         reference: "PHB, pg. 193.",
         bullets: [
             "Puoi interagire con un oggetto utilizzando un'<i>Azione Libera</i> durante il tuo turno (come sfoderare un'arma o aprire una porta). Se vuoi interagire con un secondo oggetto usa questa <i>azione</i>.",
-            "When an object requires your action for its use, you also take this action."
+            "Quando un oggetto richiede un'<i>Azione</i> per essere utilizzato, usa questa azione."
         ]
     },
+    // {
+    //     title: "Use shield",
+    //     icon: "round-shield",
+    //     subtitle: "Equip or unequip a shield",
+    //     description: "Equip or unequip a shield",
+    //     reference: "PHB, pgs. 144-146.",
+    //     bullets: [
+    //         "A shield always takes an action to equip or unequip.",
+    //         "Armor takes several minutes to equip or unequip."
+    //     ]
+    // },
     {
-        title: "Use shield",
-        icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
-        reference: "PHB, pgs. 144-146.",
-        bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
-        ]
-    },
-    {
-        title: "Hide",
+        title: "Nasconditi",
         icon: "hood",
         subtitle: "",
-        description: "Attempt to hide",
+        description: "Tenta di nasconderti",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "Non puoi nasconderti da una creatura che può vederti.",
+            "Per fare questa azione devi avere una delle seguenti condizioni: una copertura totale, un'area completamente oscurata, essere invisibile o comunque non essere visibile al nemico.",
+            "Se fai del rumore (come avvisare qualcuno gridando o facendo cadere un vaso), ti farai scoprire.",
+            "Quando cerchi di nasconderti, fai un check su Destrezza (Furtività) a annotati il risultato. Fino a quando sei scoperto o smetti di nasconderti, il totale di quel check è contestato da Saggezza (Percezione) di qualunque creatore che cerca attivamente la tua presenza.",
+            "Una creatura ti nota anche se non ti sta cercando a meno che il tuo check di Furtività non supera la sua Percezione Passiva.",
+            "Fuori dal combattimento, puoi anche usare un check su Destrezza (Furtività) per azioni come nasconderti da dei nemici, superare delle guardie senza farti notare, andare via senza farti notare o avvicinarti furtivamente a qualcuno senza essere visto o sentito."
         ]
     },
     {
-        title: "Search",
+        title: "Cercare",
         icon: "magnifying-glass",
         subtitle: "",
-        description: "Devote your attention to finding something",
+        description: "Dedica la tua attenzione a cercare qualcosa.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "In base a quello che stai cercando, il DM potrebbe chiederti di fare un check su Saggezza (Percezione) o Intelligenza (Indagare)."
         ]
     },
     {
-        title: "Ready",
+        title: "Prepararsi",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        subtitle: "Scegli di scatenare un'azione",
+        description: "Scegli una causa scatenante e un'azione di risposta",
         reference: "PHB, pg. 193.",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "Prima devi decidere che circostanza percepibile scatenerà la tua reazione.",
+            "Poi devi scegliere l'azione che eseguirai in risposta alla causa scatenante o, in alternativa, di muoverti di un valore uguale alla tua velocità.",
+            "Quando l'evento scatenante si verifica puoi decidere di eseguire la tua reazione subito o ignorarlo.",
+            "Quando prepari un incantesimo, lo puoi lanciare normalmente ma conservare la tua energia, che verrà rilasciata nel momento in cui accade l'evento. Un incantesimo, per essere preparato, deve avere un tempo di lancio di 1 <i>Azione</i> e mantenere la magia in attesa dell'evento richiede concentrazione."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usa una caratteristica della classe o della razza",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "Alcune caratteristiche usano un'<i>azione</i>",
+        description: "Usa una caratteristiche della classe o della razza che usa un'<i>azione</i> per essere eseguita.",
+        reference: "Vedi le pagine relative alla classe/razza per più informazioni.",
         bullets: [
 
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "Stabilizza una creatura.",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
+        subtitle: "Amministra il primo soccorso ad una creatura morente.",
         description: "Stop a dying creature from needing to make death saving throws",
         reference: "PHB, pg. 197.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Fai un check su Saggezza (Medicina) con CD 10",
+            "Se hai successo, la creatura è stabile e non ha più bisogno di fare dei tiri salvezza per evitare la morte.",
+            "Una creatura stabilizzata rigenera 1 punto salute dopo 1d4 ore."
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvvisazione",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        subtitle: "Una qualunque azione non presente in lista.",
+        description: "Fai una qualunque azione che puoi immaginare.",
         reference: "PHB, pg. 193.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Quando descrivi un'<i>azione</i> non descritta da nessun'altra parte nelle regole, il DM ti dirà se è essa è possibile o meno e che tipo di tiro dovrai fare, se devi farlo, per determinarne il successo o fallimento."
         ]
     }
 ]
