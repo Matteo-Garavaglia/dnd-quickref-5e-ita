@@ -1,36 +1,36 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Attacco con la mano non dominante.",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Usa con l'azione di <i>Attacco</i>.",
+        description: "Attacco con la tua mano non dominante.",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Utilizzabile solo se se esegui l'azione di <i>Attacco</i> e usi per essa un'arma ravvicinata <i>leggera</i> che tieni in una mano.",
+            "Fai un singolo attacco con un'arma <i>leggera</i> che tieni nell'altra mano.",
+            "Non aggiungi il modificatore della relativa abilità al danno dell'attacco bonus, a meno che esso non sia negativo.",
+            "Se una delle due armi che usi per attaccare può essere lanciata, allora lo puoi fare invece di attaccare da vicino."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lancia un incantesimo.",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        subtitle: "Tempo di lancio di 1 azione bonus",
+        description: "Lancia un incantesimo con tempo di lancio di 1 azione bonus",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Non puoi lanciare un incantesimo con la tua <i>azione</i> ed uno differente con la tua <i>azione bonus</i>, a meno che quello lanciato nella tua <i>azione</i> non fosse un Trucchetto.",
+            "Per maggiori dettaglio vedi l'azione <i>Lancia un incantesimo</i>.",
         ]
     },
     {
-        title: "Use class feature",
+        title: "Usa una caratteristica della classe o della razza",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Alcune caratteristiche usano un'<i>azione< bonus/i>",
+        description: "Usa una caratteristiche della classe o della razza che usa un'<i>azione bonus</i> per essere eseguita.",
+        reference: "Vedi le pagine relative alla classe/razza per più informazioni.",
         bullets: [
 
         ]
-    }
+    },
 ]
